@@ -14,9 +14,9 @@ class RedisCommands extends Tasks
 {
 
     /**
-     * Flushes the Redis backend (src/TaskRunner/Commands).
+     * Flushes the Redis backend.
      *
-     * @command redis:flush-all-taskrunner
+     * @command redis:flush-all
      */
     public function flushAll(): void
     {
