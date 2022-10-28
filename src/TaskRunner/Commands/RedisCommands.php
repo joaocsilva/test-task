@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MyProject\Robo\Plugin\Commands;
+namespace MyProject\TaskRunner\Commands;
 
 use Predis\Client;
 use Robo\Tasks;
@@ -14,9 +14,9 @@ class RedisCommands extends Tasks
 {
 
     /**
-     * Flushes the Redis backend (src/Robo/Plugin/Commands).
+     * Flushes the Redis backend (src/TaskRunner/Commands).
      *
-     * @command redis:flush-all-robo
+     * @command redis:flush-all-taskrunner
      */
     public function flushAll(): void
     {
