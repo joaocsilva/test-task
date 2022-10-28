@@ -1,0 +1,15 @@
+{
+    "name": "joaocsilva/test-task",
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "require": {
+        "consolidation/robo": "^3.0 || ^4.0",
+        "consolidation/annotated-command": "^4.5 <4.5.7",
+        "predis/predis": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyProject\\": "./src/"
+        }
+    }
+}
